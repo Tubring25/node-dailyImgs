@@ -1,0 +1,23 @@
+{
+  "name": "dailyimgs",
+  "version": "1.0.0",
+  "description": "download bing daily img by node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tubring25/node-dailyImgs.git"
+  },
+  "keywords": [
+    "node",
+    "daily-img"
+  ],
+  "author": "tubring25",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tubring25/node-dailyImgs/issues"
+  },
+  "homepage": "https://github.com/Tubring25/node-dailyImgs#readme"
+}
