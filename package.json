@@ -1,23 +1,36 @@
 {
   "name": "dailyimgs",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
   "description": "download bing daily img by node",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tubring25/node-dailyImgs.git"
-  },
-  "keywords": [
-    "node",
-    "daily-img"
-  ],
   "author": "tubring25",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tubring25/node-dailyImgs/issues"
   },
-  "homepage": "https://github.com/Tubring25/node-dailyImgs#readme"
+  "homepage": "https://github.com/Tubring25/node-dailyImgs#readme",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "ejs": "~2.3.3",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
